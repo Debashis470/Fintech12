@@ -1,2 +1,3 @@
-web: gunicorn Fintech.wsgi
+web: gunicorn finance.wsgi:application
+
 
